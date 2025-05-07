@@ -1,0 +1,192 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(24, 5%, 18%);
+  line-height: 1.6;
+  padding: 1.5rem;
+}
+
+/* Layout Container */
+.outer-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Section */
+.title-container {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: hsl(24, 5%, 18%);
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: hsl(30, 10%, 34%);
+}
+
+/* Image */
+.image-container {
+  margin-bottom: 2rem;
+}
+
+.image {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+/* Preparation Section */
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.preparation h2 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 0.75rem;
+}
+
+.preparation-list li {
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+  color: hsl(30, 10%, 34%);
+}
+
+/* Ingredients */
+.ingredients-container {
+  margin-bottom: 2rem;
+}
+
+.ingredients-container h2 {
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 0.75rem;
+}
+
+.ingredients-list li {
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+  color: hsl(30, 10%, 34%);
+}
+
+/* Instructions */
+.Instructions {
+  margin: 2rem 0;
+}
+
+.Instructions li {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.Instructions li b {
+  color: hsl(24, 5%, 18%);
+}
+
+/* Nutrition */
+.nutrition-container {
+  margin-top: 2rem;
+}
+
+.nut-title {
+  font-size: 1.5rem;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 0.5rem;
+}
+
+.nut-subtitle {
+  color: hsl(30, 10%, 34%);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+.nutrition-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0;
+}
+
+.nut-name {
+  font-weight: 600;
+  color: hsl(24, 5%, 18%);
+}
+
+.nut-value {
+  color: hsl(30, 10%, 34%);
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.social-icons {
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  color: hsl(24, 5%, 18%);
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: hsl(332, 51%, 32%);
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  .outer-container {
+    padding: 1.25rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .image {
+    border-radius: 0.5rem;
+  }
+
+  .nutvalue {
+    float: none;
+    display: block;
+    margin-top: 0.25rem;
+  }
+
+  .social-icons {
+    font-size: 1rem;
+  }
+}
