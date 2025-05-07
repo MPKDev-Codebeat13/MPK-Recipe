@@ -12,8 +12,8 @@ Step-by-step guide to making a delicious omelette. Great for breakfast or a quic
 
 ## 📸 Screenshots
 
-![Screenshot 1](./design/desktop-design.png)  
-![Screenshot 2](./design/mobile-design.png)
+![Screenshot 1](./design/desktop-design.jpg)  
+![Screenshot 2](./design/mobile-design.jpg)
 
 ---
 
